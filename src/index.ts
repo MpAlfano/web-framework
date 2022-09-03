@@ -13,7 +13,7 @@ users.on("change", () => {
   const root = document.getElementById("root");
 
   if (root) {
-    new UserList(root, users);
+    new UserList(root, users).render();
   }
 });
 
